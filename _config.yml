@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Jodi Wilkins Counseling"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+name                     : "Jodi Wilkins"
+description              : "Professional Counseling Services in Pennsylvania."
+url                      : "http://www.jwilkins counseling.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -93,18 +93,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jodi Wilkins"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Pennsylvania Licensed Professional Counselor"
+  location         : "Havertown, PA"
+  email            : "jodi@jwilkinscounseling.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:jodi@jwilkinscounseling.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.jwilkinscounseling.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -139,7 +139,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
+      #
 
 # Reading Files
 include:
@@ -279,3 +279,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+          path: "_pages"
+          type: pages
+          values: 
+          layout: single
+          author_profile: true
