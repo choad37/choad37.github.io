@@ -101,10 +101,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jodi@jwilkinscounseling.com"
+      #url: "mailto:jodi@jwilkinscounseling.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.jwilkinscounseling.com"
+      #url: "https://www.jwilkinscounseling.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
